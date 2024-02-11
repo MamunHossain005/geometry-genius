@@ -59,25 +59,25 @@
                       </div>
                     </div>
                 </div>
-                <!-- triangle card -->
+                <!-- parallelogram card -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/triangle.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/parallelogram.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area(A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Parallelogram</h2>
+                      <p>Area(A) = b x h</p>
                       <p>
                         <!-- triangle base -->
-                        <input type="text" name="" id="triangle-base" class="border w-20 px-2 text-xl bg-gray-200" placeholder="base">
+                        <input type="text" name="" id="parallelogram-base" class="border w-20 px-2 text-xl bg-gray-200" placeholder="base">
                         <span class="ml-1">cm</span>
                         <!-- triangle height -->
-                        <input type="text" name="" id="triangle-height" class="ml-4 border w-20 px-2 text-xl bg-gray-200" placeholder="height">
+                        <input type="text" name="" id="parallelogram-height" class="ml-4 border w-20 px-2 text-xl bg-gray-200" placeholder="height">
                         <span class="ml-1">cm</span>
                       </p>
-                      <p class="text-2xl">Area: <span id="triangle-area" class="font-bold">00</span>cm<sup>2</sup></p>
+                      <p class="text-2xl">Area: <span id="parallelogram-area" class="font-bold">00</span>cm<sup>2</sup></p>
                       <div class="card-actions w-full">
-                        <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
+                        <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                 </div>  
@@ -85,6 +85,9 @@
             <!-- area calculator -->
             <div class="w-[400px]">
                 <div class="text-4xl">Area Calculator</div>
+                <div id="calculation-entry">
+                  
+                </div>
             </div>
         </div>
     </main>
